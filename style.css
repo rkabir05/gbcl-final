@@ -22,6 +22,41 @@ body {
 
 
 
+.navbar-brand strong,
+.navbar-brand .text-muted,
+.navbar-nav .nav-link,
+.navbar-nav .nav-link.active {
+  color: #fff !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: #fff8c8 !important;
+}
+
+.navbar-nav .btn-primary {
+  background: #8b5a00;
+  border-color: #8b5a00;
+  color: #fff;
+}
+
+.navbar-nav .btn-primary:hover {
+  background: #6b4300;
+  border-color: #6b4300;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.75rem;
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .btn {
+  white-space: nowrap;
+}
+
+
 
 .lead-title {
     font-size: 48px;
@@ -59,13 +94,7 @@ h5.section-title {
 
 
 
-/* .item-main-part {
-  min-height: calc(100vh - 96px);
-  background-image: linear-gradient(180deg, rgba(10, 25, 64, .72), rgba(10, 25, 64, .85)), url('assets/images/leade-theme.jpg');
-  background-size: cover;
-  background-position: center;
-  position: relative;
-} */
+
 
 .item-main-part{
     background-image: linear-gradient(180deg, rgba(10, 25, 64, .72), rgba(10, 25, 64, .85)), url("assets/images/leade-theme.jpg");
@@ -104,34 +133,10 @@ h5.section-title {
 width: 70px;
 }
 
-i.fa-solid.fa-award {
-    color: #f1ad4b;
-    background: #fdeed4;
-    height: 40px;
-    width: 40px;
-}
 
-
-i.bi.bi-people{
-    background: #d3e0fb;
-    color: #2463eb;
-    height: 40px;
-    width: 40px;
-}
-
-
-i.fa-sharp.fa-solid.fa-suitcase {
-    color: #ec4699;
-    background: #fbdaeb;
-    height: 40px;
-    width: 40px;    
-}
-
-i.fa-solid.fa-business-time {
-    color: #14bad7;
-    background: #cdf0f7;
-    height: 40px;
-    width: 40px;    
+.partner-logo {
+  max-height: 70px;
+  object-fit: contain;
 }
 
 
@@ -195,7 +200,24 @@ i.fa-solid.fa-business-time {
   color: #0b5ed7;
 }
 
+.feature-box {
+  transition: transform .3s ease, box-shadow .3s ease;
+}
 
+.feature-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
+}
+
+.icon-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.35rem;
+}
 
 
 *{
