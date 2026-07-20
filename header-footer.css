@@ -37,6 +37,10 @@
     font-size: 0.9rem;
 }
 
+.navbar {
+    width: 100%;
+}
+
 .navbar-nav .nav-item {
     margin-right: 0.2rem;
 }
@@ -90,6 +94,14 @@
 
     .logo-name p {
         font-size: 0.78rem;
+    }
+
+    .navbar {
+        justify-content: flex-end !important;
+    }
+
+    .navbar-toggler {
+        margin-left: auto;
     }
 
     .navbar-collapse {
