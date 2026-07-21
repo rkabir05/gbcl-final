@@ -139,7 +139,43 @@ i.fa-brands.fa-facebook-f {
     margin-bottom: 25px;
 }
 
+
+/* people */
+
+.people-card img,
+.alumni-card img{
+    height:220px;
 }
+
+.advisor-box{
+    padding:25px;
+    text-align:center;
+}
+
+.join-box{
+    text-align:center;
+}
+
+/* Search */
+
+.search-card img{
+    height:110px;
+}
+
+.search-card{
+    padding:18px;
+}
+
+.search-card h4{
+    font-size:18px;
+}
+
+.search-hero h1{
+    font-size:34px;
+}
+}
+
+
 
 
 

@@ -580,3 +580,110 @@ width: 70px;
     font-size: 34px;
     margin-bottom: 25px;
 }
+
+
+
+
+/* single par css */
+
+.people-banner{
+    background:#f8fafc;
+}
+
+.people-banner h1{
+    font-weight:700;
+}
+
+.people-card,
+.alumni-card{
+    border-radius:20px;
+    overflow:hidden;
+    transition:.35s;
+}
+
+.people-card:hover,
+.alumni-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 35px rgba(0,0,0,.10)!important;
+}
+
+.people-card img,
+.alumni-card img{
+    height:280px;
+    object-fit:cover;
+}
+
+.social a{
+    color:#0d6efd;
+    margin:0 8px;
+    font-size:20px;
+}
+
+.advisor-box{
+    background:#fff;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.advisor-box img{
+    border-radius:20px;
+}
+
+.join-box{
+    background:#0d6efd;
+    color:#fff;
+    padding:45px;
+    border-radius:25px;
+}
+
+.join-box p{
+    color:#d9e8ff;
+}
+
+.search-card{
+    background:#fff;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+    height:100%;
+}
+
+.search-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 40px rgba(0,0,0,.12);
+}
+
+.search-card img{
+    height:140px;
+    width:100%;
+    object-fit:cover;
+}
+
+.search-card h4{
+    font-size:22px;
+    font-weight:600;
+    margin-top:10px;
+}
+
+.search-card p{
+    margin:10px 0;
+}
+
+.page-link{
+    border-radius:10px;
+    margin:0 4px;
+
+}
+
+.form-control,
+.form-select{
+    border-radius:12px;
+}
+
+.input-group .btn{
+    border-radius:0 12px 12px 0;
+}
+
+
