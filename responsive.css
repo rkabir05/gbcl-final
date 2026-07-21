@@ -173,6 +173,29 @@ i.fa-brands.fa-facebook-f {
 .search-hero h1{
     font-size:34px;
 }
+
+.btn-search{
+    width:100%;
+    border-radius:8px;
+    margin-top:10px;
+    height:45px;
+}
+
+/* archive */
+
+.archive-card img{
+    height:180px;
+}
+
+.archive-content{
+    padding:20px;
+}
+
+.archive-content h4{
+    font-size:20px;
+}
+
+
 }
 
 
