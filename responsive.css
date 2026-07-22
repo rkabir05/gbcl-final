@@ -196,9 +196,30 @@ i.fa-brands.fa-facebook-f {
 }
 
 
+/* category */
+
+.category-card img{
+    height:190px;
+}
+
+.category-content{
+    padding:20px;
+}
+
+.category-content h4{
+    font-size:1.15rem;
+}
+
+.category-meta{
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+.form-select{
+    width:100% !important;
 }
 
 
-
+}
 
 
