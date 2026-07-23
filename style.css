@@ -152,9 +152,15 @@ h5.section-title {
   box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
 }
 
-.bg-of-blue{
+/* .bg-of-blue{
     background-color: #5684ae;
+} */
+
+.bg-aliceblue{
+    background-color: #F0F8FF;
 }
+
+
 
 .icon-box {
     width: 50px;
