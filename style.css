@@ -224,29 +224,22 @@ h5.section-title {
     transition:.3s;
 }
 
-.social-icons a:hover{
+/* .social-icons a:hover{
     color:#e67e22;
+} */
+
+i.bi.bi-facebook:hover{
+    color:#0b5ed7;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+i.bi.bi-linkedin:hover{
+    color:#0A66C2;
 }
+
+i.bi.bi-instagram:hover{
+    color:#6228d7;
+}
+
 
 .service-card{
     width:420px;
@@ -293,8 +286,6 @@ h5.section-title {
     line-height:1.15;
 }
 
-/* Hover */
-
 .service-card:hover img{
     transform:scale(1.12);
 }
@@ -307,7 +298,6 @@ h5.section-title {
     background:#fff;
     color:#0077db;
     transform:rotate(90deg);
-
     position:absolute;
     top:0;
     right:0;
@@ -327,73 +317,6 @@ h5.section-title {
     transform:translateY(-15px);
 }
 
-
-
-
-
-
-.video-box{
-    position: relative;
-    overflow: hidden;
-    width: 350px;
-}
-
-.video-box img{
-    width: 100%;
-    display: block;
-    transition: .5s;
-}
-
-.video-overlay{
-    position: absolute;
-    inset: 0;
-    background: rgba(0,0,0,.45);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    visibility: hidden;
-    transition: .5s;
-}
-
-/* বাইরের বর্ডার */
-.video-overlay::before{
-    content: "";
-    position: absolute;
-    width: 92%;
-    height: 92%;
-    border: 2px solid rgba(255,255,255,.15);
-    transform: scale(.8);
-    transition: .5s;
-}
-
-/* ভেতরের বর্ডার */
-.video-overlay::after{
-    content: "";
-    position: absolute;
-    width: 68%;
-    height: 68%;
-    border: 2px solid rgba(255,255,255,.25);
-    transform: scale(.8);
-    transition: .7s;
-}
-
-/* Play Button */
-.play-btn{
-    width: 95px;
-    height: 95px;
-    background: #0b83d8;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    font-size: 35px;
-    transform: scale(.3) rotate(-180deg);
-    transition: .5s;
-    position: relative;
-    z-index: 2;
-}
 
 /* Hover Effect */
 .video-box:hover img{
@@ -415,28 +338,6 @@ h5.section-title {
     animation: pulse 1.5s infinite;
 }
 
-/* Pulse Animation */
-@keyframes pulse{
-
-    0%{
-        box-shadow:0 0 0 0 rgba(11,131,216,.7);
-    }
-
-    70%{
-        box-shadow:0 0 0 25px rgba(11,131,216,0);
-    }
-
-    100%{
-        box-shadow:0 0 0 0 rgba(11,131,216,0);
-    }
-
-}
-
-
-
-
-
-
 
 .bx-wrapper {
     max-width: 100% !important;
@@ -445,11 +346,7 @@ h5.section-title {
 
 
 
-
-
-
 /* item about  */
-
 
 .item-about-box{
     padding:100px 0;
@@ -521,18 +418,17 @@ h5.section-title {
 }
 
 .icon-box {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: #0d6efd;
     color: #fff;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 34px;
+    font-size: 22px;
     margin-bottom: 25px;
 }
-
 
 
 
@@ -649,8 +545,6 @@ h5.section-title {
     font-weight:700;
 }
 
-
-
 .archive-card{
     background:#fff;
     border-radius:18px;
@@ -704,7 +598,7 @@ h5.section-title {
 }
 
 .btn{
-    min-height:48px;
+    min-height:auto;
 }
 
 
@@ -716,17 +610,16 @@ h5.section-title {
 
 /* Category  */
 
-.category-hero{
+.category-main{
     background:#f8fafc;
 }
 
-.category-hero h1{
+.category-main h1{
     font-weight:700;
 }
 
-/* ==========================
-Category Card
-========================== */
+/* Category Card */
+
 
 .category-card{
     background:#fff;
@@ -788,4 +681,99 @@ Category Card
 .page-link{
     border-radius:10px;
     margin:0 4px;
+}
+
+
+
+/* Contact */
+
+.contact-main{
+    background:#f8fafc;
+}
+
+.contact-main h1{
+    font-weight:700;
+}
+
+
+/* Contact Information */
+
+.contact-info{
+    background:#fff;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    height:100%;
+}
+
+.contact-item{
+    display:flex;
+    gap:18px;
+    margin-bottom:25px;
+}
+
+.contact-item i{
+    width:30px;
+    height:30px;
+    background:#0d6efd;
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:18px;
+}
+
+
+/* Social Media */
+
+
+.social-links a{
+    width:42px;
+    height:42px;
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    background:#f1f5f9;
+    color:#0d6efd;
+    margin-right:10px;
+    transition:.3s;
+    text-decoration:none;
+
+}
+
+.social-links a:hover{
+    background:#0d6efd;
+    color:#fff;
+}
+
+/* Contact Form */
+
+.contact-form{
+    background:#fff;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.form-control{
+    min-height:50px;
+    border-radius:10px;
+}
+
+textarea.form-control{
+    min-height:180px;
+}
+
+.map-box{
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.map-box iframe{
+    width:100%;
+    height:450px;
+    border:0;
 }
